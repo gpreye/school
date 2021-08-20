@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gallery</title>
+    <!-- Bootstrap -->
+    <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" /> -->
+    <!-- Css -->
+    <link rel="stylesheet" href="css/styles.css" />
+    <!-- Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400&display=swap" rel="stylesheet">
+</head>
+<body>
+    <section>
+        <h1>Our Photo Gallery</h1>
+        <ul>
+            <li class="list active" data-filter="all">All</li>
+            <li class="list" data-filter="sports">Sports</li>
+            <li class="list" data-filter="awards">Awards</li>
+            <li class="list" data-filter="trips">Trips</li>
+            <li class="list" data-filter="staffs">Staffs</li>
+            <li class="list" data-filter="facilities">Facilities</li>
+        </ul>
+        <div class="product">
+            <div class="itemBox sports">
+                <img src="images/pic1.jpeg" />
+            </div>
+            <div class="itemBox awards">
+                <img src="images/pic2.jpeg" />
+            </div>
+            <div class="itemBox trips">
+                <img src="images/pic3.jpeg" />
+            </div>
+            <div class="itemBox staffs">
+                <img src="images/pic4.jpeg" />
+            </div>
+            <div class="itemBox facilities">
+                <img src="images/pic5.jpeg" />
+            </div>
+            <div class="itemBox sports">
+                <img src="images/pic6.jpeg" />
+            </div>
+            <div class="itemBox awards">
+                <img src="images/pic7.jpeg" />
+            </div>
+            <div class="itemBox trips">
+                <img src="images/pic8.jpeg" />
+            </div>
+            <div class="itemBox staffs">
+                <img src="images/pic9.jpeg" />
+            </div>
+            <div class="itemBox facilities">
+                <img src="images/pic10.jpeg" />
+            </div>
+            <div class="itemBox sports">
+                <img src="images/pic11.jpeg" />
+            </div>
+            <div class="itemBox awards">
+                <img src="images/pic12.jpeg" />
+            </div>
+        </div>
+    </section>
+
+
+        <!-- Js -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+        <script type="text/javascript">
+        $(document).ready(function() {
+                        $(".list").click(function() {
+                                const value = $(this).attr("data-filter");
+                            if (value == "all") {
+                                $(".itemBox").show("1000");
+                            } else {
+                                $(".itemBox").not('.' + value).hide("1000");
+                                $(".itemBox").filter('.' + value).show("1000");
+                            }
+                        })
+            // add active class on selected item
+            $('.list').click(function () {
+                $(this).addClass('active').siblings().removeClass('active');
+            })
+        })
+        </script>
+</body>
+</html>

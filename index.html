@@ -1,0 +1,436 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>First Oxford</title>
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" />
+    <!-- Css -->
+    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="stylesheet" href="css/all.css" />
+    <!-- Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css">
+</head>
+
+<body>
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container">
+            <a class="navbar-brand" href="#">First<br>Oxford</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+                aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav mx-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="gallery.html">Gallery</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Academics</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">News & Event</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">About Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contact</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Admissions
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                            <li><a class="dropdown-item" href="#">Admission form</a></li>
+                            <li><a class="dropdown-item" href="#">Admission exam</a></li>
+                            <li><a class="dropdown-item" href="#">Admission center</a></li>
+                        </ul>
+                    </li>
+                </ul>
+
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="./registration/views/index.ejs"><i class="fas fa-user-plus"></i>Sign
+                            Up</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./registration/views/login.ejs"><i
+                                class="fas fa-sign-in-alt"></i>Login</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Banner -->
+    <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item item active">
+                <img src="images/bg/bg-1.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-md-block">
+                    <span>Welcome to</span>
+                    <h2>First Oxford College</h2>
+                    <p class="italic">Home of excellence</p>
+                    <a href="#">Learn More</a>
+                </div>
+            </div>
+            <div class="carousel-item item">
+                <img src="images/bg/bg-2.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-md-block">
+                    <h3>The right path to top universities in the world</h3>
+                    <p>Our teachers are well trained, 21st-century professionals and certified graduates;
+                        they provide guidance to each students according to his/her career objectives
+                        turns out to be better prepared for university education.
+                    </p>
+                </div>
+            </div>
+            <div class="carousel-item item">
+                <img src="images/bg/bg-3.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-md-block">
+                    <h3>Give your child a great head start in life</h3>
+                    <p>Every child deserves a quality and well-round education in their formative years</p>
+                </div>
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+
+    <!-- INFO -->
+    <div class="info">
+        <div class="container">
+            <div class="text">
+                <h4>Admission in progress!!!</h4>
+                <p>As one of the Leading International Schools in Nigeria and Africa, we produce a
+                    child through a holistic educational programme that benchmarks best practices while being
+                    socially responsible. <span>Admission into 2020/2021 Academic Session is Ongoing</span>
+                </p>
+            </div>
+            <a href="#">Apply Now</a>
+        </div>
+    </div>
+
+    <!-- MESSAGE -->
+    <div class="container message">
+        <div class="row">
+            <div class="col-md-6">
+                <img src="images/director.jpg" />
+            </div>
+
+            <div class="col-md-6">
+                <div class="text">
+                    <h2>Welcome</h2>
+                    <span>A message from the Director</span>
+                    <p>Thank you for visiting our website and i hope that you find it informative. I feel
+                        truly previleged to lead such a wonderful school and to have the opportunity
+                        of ensuring that each child at First Oxford College Nusery, Primary and Secondary receives
+                        the best possible education in their formative years.
+                    </p>
+                    <p>At First Oxford, we have high expectations of our children and set challenging targets for them.
+                        Every child is encouraged to reach their full potential. We also recognize that every child is
+                        unique and has valid contributions to make.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- CLASSES -->
+    <div class="container classes">
+        <div class="row">
+            <div class="col-md-4">
+                <img src="images/Nursery.jpg" />
+                <div class="text">
+                    <a href="#">
+                        <h3>Nursery</h3>
+                    </a>
+                    <p>Nuturing the spirit of achievement since 1983, the nusery school have consistently evolved and 
+                        remained on the cutting edge of educational advancements.</p>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <img src="images/Primary.png" />
+                <div class="text">
+                    <a href="#">
+                        <h3>Primary</h3>
+                    </a>
+                    <p>Given the rich potential of the children in the primary school and helping them in all best possible 
+                        ways to build on it and being consistent in their deliverable.</p>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <img src="images/Secondary.jpg" />
+                <div class="text">
+                    <a href="#">
+                        <h3>Secondary</h3>
+                    </a>
+                    <p>Established in 2007, First Oxford College is a day secondary school with high expectations and 
+                        great ambitions for every one of our students in choosing their desired career discipline.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- NEWS & EVENT -->
+    <div class="news">
+        <div class="title">
+            News & Event
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="card mb-4 box-shadow">
+                        <img class="card-img-top" src="images/1.jpg" alt="Card image cap">
+                        <div class="card-body">
+                            <h5>School graduation ceremony</h5>
+                            <p class="card-text">Graduation ceremony been hosted by the school management for the graduant 
+                                of the 2020/2021 academic session and also prize giving to best performed students</p>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <div class="btn-group">
+                                    <button type="button" class="btn btn-sm btn-outline-secondary"><a href="">View Details</a></button>
+                                </div>
+                                <small class="text-muted">24th June 2021</small>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card mb-4 box-shadow">
+                        <img class="card-img-top" src="images/2.jpeg" alt="Card image cap">
+                        <div class="card-body">
+                            <h5>First Oxford student excursion</h5>
+                            <p class="card-text">The student are being taken on a field trip to various locations to get a 
+                                glimpse of the happenings around them and for better understanding of things learnt in the class room</p>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <div class="btn-group">
+                                    <button type="button" class="btn btn-sm btn-outline-secondary"><a href="">View Details</a></button>
+                                </div>
+                                <small class="text-muted">1st July 2021</small>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card mb-4 box-shadow">
+                        <img class="card-img-top" src="images/3.jpg" alt="Card image cap">
+                        <div class="card-body">
+                            <h5>First Oxford student lab project</h5>
+                            <p class="card-text">The students are being engaged in the school laboratory for various 
+                                science praticals and research purpose</p>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <div class="btn-group">
+                                    <button type="button" class="btn btn-sm btn-outline-secondary"><a href="">View Details</a></button>
+                                </div>
+                                <small class="text-muted">20th May 2021</small>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- NEWSLETTER -->
+        <div class="sub">
+            <div class="container">
+                <h3>Newsletter</h3>
+                <p>For updates on the activities of the school</p>
+                <form>
+                    <div class="form-group">
+                        <input type="text" class="form-control" placeholder="Enter Your Email" />
+                        <button type="submit" class="btn">Subscribe</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+
+        <!-- TESTIMONIALS -->
+        <div class="testimonial-slider">
+            <h3>What Parents Are Saying?</h3>
+            <div class="container">
+                <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+                    <!-- Indicators -->
+                    <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0"
+                            class="active" aria-current="true" aria-label="Slide 1"></button>
+                        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                            aria-label="Slide 2"></button>
+                        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                            aria-label="Slide 3"></button>
+                    </div>
+
+                    <!-- Wrapper for slides -->
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <div class="img-box">
+                                <img src="images/t1.jpg">
+                            </div>
+                            <div class="text">
+                                <p>The teachers are attentive to the students and have their best interests at heart</p>
+                                <h3>Mr. Godwin Preye</h3>
+                            </div>
+                        </div>
+
+                        <div class="carousel-item">
+                            <div class="img-box">
+                                <img src="images/t2.jpg">
+                            </div>
+                            <div class="text">
+                                <p>The school remains number one in providing quality education. I am very proud as 
+                                    a parent because i can see my child making staedy progress in all areas
+                                </p>
+                              <h3>Mrs. Rebecca Oketona</h3>
+                            </div>
+                        </div>
+
+                        <div class="carousel-item">
+                            <div class="img-box">
+                                <img src="images/t3.jpg">
+                            </div>
+                            <div class="text">
+                                <p>I like the way the students are being encouraged to be confident in themselves. It 
+                                    helps good development
+                                </p>
+                                <h3>Mrs. Joy Ayo</h3>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- PARTNERS -->
+            <div class="partners">
+                <div class="container">
+                    <img src="images/Asia-320x202.png" />
+                    <img src="images/Htachi-320x202.png" />
+                    <img src="images/slide_0003_edxel-1.png" />
+                    <img src="images/COBIS-Member-CMYK-320x202.jpg" />
+                    <img src="images/slide_0004_acca-1.png" />
+                    <img src="images/slide_0002_aisa-logo-2.png" />
+                </div>
+            </div>
+
+            <!-- CTA -->
+            <div class="cta">
+                <div class="container">
+                    <div class="content">
+                        <img src="images/icon-1.png" />
+                        <div class="text">
+                            <h3>University Placement Rate</h3>
+                            <p>100%</p>
+                        </div>
+                    </div>
+
+                    <div class="content">
+                        <img src="images/icon-2.png" />
+                        <div class="text">
+                            <h3>Alumni Count</h3>
+                            <p>4578</p>
+                        </div>
+                    </div>
+
+                    <div class="content">
+                        <img src="images/icon-3.png" />
+                        <div class="text">
+                            <h3>Current Students</h3>
+                            <p>400</p>
+                        </div>
+                    </div>
+
+                    <div class="content">
+                        <img src="images/icon-4.png" />
+                        <div class="text">
+                            <h3>Partner Universities</h3>
+                            <p>12</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- GALLERY -->
+            <div class="gallery">
+                <div class="container">
+                    <h3>School Activities</h3>
+                    <p>Take a Tour</p>
+                    <div class="content">
+                        <img src="images/pic1.jpeg" />
+                        <img src="images/pic2.jpeg" />
+                        <img src="images/pic3.jpeg" />
+                        <img src="images/pic4.jpeg" />
+                        <img src="images/pic5.jpeg" />
+                    </div>
+                </div>
+            </div>
+
+
+            <!-- FOOTER -->
+            <div class="footer">
+                <div class="container">
+                    <div class="about">
+                        <h4>About Us</h4>
+                        <p>The School believes in building a solid foundation for the child and as such, we
+                            strive to turn out students with passion for excellence and who have
+                            adequately prepared for tertiary education and life.
+                        </p>
+                    </div>
+
+                    <div class="links">
+                        <h4>Popular Links</h4>
+                        <ul>
+                            <a href="#">Academics</a>
+                            <a href="#">Admission Process</a>
+                            <a href="#">School Tour</a>
+                            <a href="#">Result Portal</a>
+                            <a href="#">Staff Mail</a>
+                            <a href="#">Blog</a>
+                        </ul>
+                    </div>
+
+                    <div class="contact">
+                        <h4>Contact Us</h4>
+                        <p><span>Delta State</span>: 8/10, Olawole dadu street</p>
+                        <p>+234 07066913431 <br> +234 9069064573</p>
+                        <p>info@firstoxfordcollege.com <br> admissions@firstoxfordcollege.com</p>
+                    </div>
+
+                    <div class="social-media">
+                        <h4>Follow Us</h4>
+                        <ul>
+                            <a href="#"><i class="fab fa-facebook-square"></i></a>
+                            <a href="#"><i class="fab fa-twitter-square"></i></a>
+                            <a href="#"><i class="fab fa-instagram-square"></i></a>
+                            <a href="#"><i class="fab fa-whatsapp-square"></i></a>
+                            <a href="#"><i class="fab fa-google-plus-square"></i></a>
+                        </ul>
+                    </div>
+                </div>
+                <p class="copyright">&copy; 2021 FirstOxfordCollege</p>
+            </div>
+
+
+
+
+            <!-- Js -->
+            <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+            <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+            <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"></script>
+</body>
+
+</html>
