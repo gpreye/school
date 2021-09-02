@@ -82,6 +82,12 @@ body {
   z-index: 111;
 }
 
+@media (max-width: 768px) {
+  .carousel .carousel-inner .carousel-caption {
+    bottom: 20%;
+  }
+}
+
 .carousel .carousel-inner .carousel-caption span {
   color: #f1f1f1;
   font-size: 1.5rem;
@@ -269,7 +275,7 @@ body {
 .sub {
   margin-top: 20px;
   background-color: #f1f1f1;
-  padding: 10px;
+  padding: 20px 10px;
 }
 
 .sub .container {
@@ -334,8 +340,6 @@ section ul {
   display: -ms-flexbox;
   display: flex;
   margin-bottom: 10px;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
 }
 
 section ul li {
@@ -525,7 +529,7 @@ section ul li.active {
 .cta .container .content img {
   width: 50px;
   height: 50px;
-  margin-bottom: 5px;
+  margin-bottom: 15px;
 }
 
 .cta .container .content .text {
@@ -769,6 +773,7 @@ section ul li.active {
 .footer {
   background-color: #f1f1f1;
   margin-top: 50px;
+  padding: 10px 0;
 }
 
 .footer .container {
@@ -845,6 +850,6 @@ section ul li.active {
   text-align: center;
   margin-top: 10px;
   color: #505050;
-  font-size: 0.9rem;
+  font-size: 0.8rem;
 }
 /*# sourceMappingURL=styles.css.map */

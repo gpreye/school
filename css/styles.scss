@@ -91,6 +91,10 @@ body {
       bottom: 30%;
       z-index: 111;
 
+      @media (max-width: 768px) {
+        bottom: 20%;
+      }
+
       span {
         color: $white;
         font-size: 1.5rem;
@@ -273,7 +277,7 @@ body {
 .sub {
   margin-top: 20px;
   background-color: $white;
-  padding: 10px;
+  padding: 20px 10px;
   .container {
     text-align: center;
 
@@ -330,7 +334,6 @@ section {
 section ul {
   display: flex;
   margin-bottom: 10px;
-  flex-wrap: wrap;
 }
 
 section ul li {
@@ -493,7 +496,7 @@ section ul li.active {
       img {
         width: 50px;
         height: 50px;
-        margin-bottom: 5px;
+        margin-bottom: 15px;
       }
 
       .text {
@@ -738,6 +741,7 @@ section ul li.active {
 .footer {
   background-color: $white;
   margin-top: 50px;
+  padding: 10px 0;
   .container {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
@@ -810,6 +814,6 @@ section ul li.active {
     text-align: center;
     margin-top: 10px;
     color: #505050;
-    font-size: 0.9rem;
+    font-size: 0.8rem;
   }
 }
