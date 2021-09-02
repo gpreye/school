@@ -350,19 +350,19 @@ section ul li.active {
   color: #fff;
 }
 
-.product {
+.gallery-container {
   display: flex;
   flex-wrap: wrap;
 }
 
-.product .itemBox {
+.gallery-container .itemBox {
   position: relative;
   width: 300px;
   height: 300px;
   margin: 5px;
 }
 
-.product .itemBox img {
+.gallery-container .itemBox img {
   position: absolute;
   top: 0;
   left: 0;
@@ -664,6 +664,11 @@ section ul li.active {
     margin-top: 30px;
     margin-left: 30px;
     padding: 0;
+
+    @media (max-width: 768px) {
+      margin-top: 100px;
+      margin-left: 0;
+    }
 
     ul {
       margin: 0;
